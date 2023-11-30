@@ -30,7 +30,7 @@ Preprocessing steps performed on the dataset, such as data cleaning, feature ext
 Provide instructions for setting up the project locally, including package installation:
 
 installing libraries:
-  -pandas
+  -pandas \n
   -matplotlib
   -seaborn
   -RandomForestClassifier
