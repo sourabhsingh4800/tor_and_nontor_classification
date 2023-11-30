@@ -42,11 +42,11 @@ installing libraries:
   -xgboost
   -numpy
 
-  ##Evaluation 
+  ## Evaluation 
   
   It is based on comparing multiple machine learning models with their accuracy_score, f1_score, precision_score, recall_score whichever is producing best result will be considered as the optimal model or the given dataset
 
-  ##Result
+  ## Result
 
   Result of the above experiment is that it produces a good result woth KNN model 
   
