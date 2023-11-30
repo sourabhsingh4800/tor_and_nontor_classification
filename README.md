@@ -11,6 +11,7 @@ This project aims to classify network traffic into two categories: Tor and Non-T
 - [Model Training](#model-training)
 - [Evaluation](#evaluation)
 - [Results](#results)
+- [Refrences](#refrences)
 
 ## Dataset
 
@@ -49,4 +50,12 @@ installing libraries:
   ## Result
 
   Result of the above experiment is that it produces a good result woth KNN model 
+
+  ## Refrences
+
+  Dataset - https://www.kaggle.com/datasets/dhoogla/cicdarknet2020
+  ResearchPaper - https://www.sciencedirect.com/science/article/pii/S0167404823000081
+  Cite - Rust-Nguyen, N., Sharma, S. and Stamp, M., 2023. Darknet traffic classification and adversarial attacks using machine learning. Computers & Security, 127, p.103098.
+  GithubLink - https://github.com/sourabhsingh4800/tor_and_nontor_classification
+  
   
