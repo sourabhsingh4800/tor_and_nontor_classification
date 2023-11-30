@@ -7,38 +7,46 @@ This project aims to classify network traffic into two categories: Tor and Non-T
 ## Table of Contents
 
 - [Dataset](#dataset)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Model Training](#model-training)
 - [Evaluation](#evaluation)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Dataset
 
 ### Data Source
 
-The dataset used for this project is derived from [mention the source or repository]. It includes labeled network traffic data where each sample is marked as either "Tor" or "Non-Tor."
+The dataset used for this project is derived from canadian institute of cybersecurity-2020. It includes labeled network traffic data where each sample is marked as either "Tor" or "Non-Tor."
 
 ### Data Preprocessing
 
-Explain the preprocessing steps performed on the dataset, such as data cleaning, feature extraction, and label encoding.
-
-## Project Structure
-
-Describe the structure of your project repository:
-
-- `data/`: Directory for storing the dataset.
-- `notebooks/`: Jupyter notebooks for data exploration, model development, and evaluation.
-- `src/`: Source code for data preprocessing, model training, and evaluation.
-- `models/`: Trained model checkpoints.
-- `requirements.txt`: List of required libraries and dependencies.
+Preprocessing steps performed on the dataset, such as data cleaning, feature extraction, and label encoding 
+  -As the label consist of NonTOR and TOR label set we will first convert it into zero or one class only.
+  -As we are processing with numeric values then we have to have all feature with numeric value or convert non-numeric values to numeric values.
 
 ## Installation
 
 Provide instructions for setting up the project locally, including package installation:
 
-```bash
-pip install -r requirements.txt
+installing libraries:
+  -pandas
+  -matplotlib
+  -seaborn
+  -RandomForestClassifier
+  -KNeighborsClassifier
+  -logisticRegression
+  -Kflod, Cross_val_score
+  -lightgbm
+  -accuracy_score, f1_score, precision_score, recall_score, 
+  -confusion matrix
+  -xgboost
+  -numpy
+
+  ##Evaluation 
+  
+  It is based on comparing multiple machine learning models with their accuracy_score, f1_score, precision_score, recall_score whichever is producing best result will be considered as the optimal model or the given dataset
+
+  ##Result
+
+  Result of the above experiment is that it produces a good result woth KNN model 
+  
